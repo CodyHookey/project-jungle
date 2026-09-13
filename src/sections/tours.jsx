@@ -7,31 +7,31 @@ class Tours extends React.Component {
         name: "Amazon Beyond",
         desc: "7 Days / 6 Night",
         price: "999",
-        image: "/beyond.jpeg",
+        image: "/beyond.webp",
       },
       {
         name: "Ultimate Amazon Explorer",
         desc: "6 Days / 5 Nights",
         price: "899",
-        image: "/ultimate.jpg",
+        image: "/ultimate.webp",
       },
       {
         name: "Amazon Wild Camp",
         desc: "5 Days / 4 Nights",
         price: "799",
-        image: "/camping.jpg",
+        image: "/camping.webp",
       },
       {
         name: "Amazon Unbound",
         desc: "4 Days / 3 Nights",
         price: "699",
-        image: "/unbound.jpg",
+        image: "/unbound.webp",
       },
       {
         name: "Amazon Wildlife Escape",
         desc: "3 Days / 2 Nights",
         price: "599",
-        image: "/wildlife.jpeg",
+        image: "/wildlife.webp",
       },
       {
         name: "Amazon Weekend",
@@ -70,7 +70,9 @@ class Tours extends React.Component {
                     <p className="fs-3 text-white mt-5 fw-bold">{d.name}</p>
                     <p className="text-white fs-4">{d.desc}</p>
                     <p className="text-white mt-auto fs-3">${d.price}</p>
-                    <button className="btn custom-btn inner">Learn More</button>
+                    <button className="btn secondary-button inner">
+                      Learn More
+                    </button>
                   </div>
                 );
               })}
