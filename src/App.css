@@ -30,3 +30,13 @@
   border: 2px solid white;
   transition: 0.8s;
 }
+
+.custom-toggler {
+  background-color: transparent !important; /* Forces background to be transparent */
+  border-color: transparent !important; /* Removes the default border outline */
+}
+
+/* Turns the default Bootstrap hamburger lines pure white */
+.custom-toggler .navbar-toggler-icon {
+  filter: invert(1) grayscale(1) brightness(2);
+}

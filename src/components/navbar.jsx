@@ -21,7 +21,7 @@ function NavBar() {
             <img src={Logo} className="img-fluid me-2" alt="" width={"100px"} />
           </a>
           <button
-            className="navbar-toggler"
+            className="navbar-toggler custom-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
@@ -67,22 +67,34 @@ function NavBar() {
             <ul className="navbar-nav ms-auto">
               <div className="d-lg-none">
                 <li className="nav-item me-4">
-                  <a className="nav-link custom-link" href="/">
+                  <a
+                    className="nav-link custom-link text-white fw-bold"
+                    href="/"
+                  >
                     Home
                   </a>
                 </li>
                 <li className="nav-item me-4">
-                  <a className="nav-link custom-link" href="#about">
+                  <a
+                    className="nav-link custom-link text-white fw-bold"
+                    href="#about"
+                  >
                     About Us
                   </a>
                 </li>
                 <li className="nav-item me-4">
-                  <a className="nav-link custom-link" href="#tours">
+                  <a
+                    className="nav-link custom-link text-white fw-bold"
+                    href="#tours"
+                  >
                     Tours
                   </a>
                 </li>
                 <li className="nav-item me-4">
-                  <a className="nav-link custom-link" href="#experiences">
+                  <a
+                    className="nav-link custom-link text-white fw-bold"
+                    href="#experiences"
+                  >
                     Specialized Experiences
                   </a>
                 </li>
