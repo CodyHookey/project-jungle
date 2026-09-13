@@ -40,3 +40,8 @@
 .custom-toggler .navbar-toggler-icon {
   filter: invert(1) grayscale(1) brightness(2);
 }
+
+.custom-border {
+  border: 4px #2e4a33 dashed;
+  border-radius: 32px;
+}
