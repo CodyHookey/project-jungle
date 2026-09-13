@@ -31,6 +31,17 @@
   transition: 0.8s;
 }
 
+.secondary-button {
+  color: white;
+  background-color: none;
+  border: white 2px solid;
+}
+
+.secondary-button:hover {
+  background-color: white;
+  color: #2e4a33;
+}
+
 .custom-toggler {
   background-color: transparent !important; /* Forces background to be transparent */
   border-color: transparent !important; /* Removes the default border outline */
@@ -44,4 +55,67 @@
 .custom-border {
   border: 4px #2e4a33 dashed;
   border-radius: 32px;
+}
+
+.outer {
+  border-radius: 32px;
+}
+
+.inner {
+  border-radius: 24px;
+}
+
+.dark-custom-bg {
+  background-color: #2e4a33;
+  color: white;
+}
+
+/* Carousel */
+
+.custom-carousel {
+  width: 100%;
+  overflow: hidden;
+}
+
+.custom-carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.track {
+  display: flex;
+  width: max-content;
+  animation: spin 40s linear infinite;
+  will-change: transform;
+}
+
+.custom-group {
+  gap: 1em;
+  padding-right: 1em;
+}
+
+.custom-carousel:hover .track {
+  animation-play-state: paused;
+}
+
+.custom-card-scroll {
+  flex: 0 0 400px;
+  transition: 0.8s;
+  color: #fff;
+
+  p {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  }
+}
+
+.custom-card-scroll:hover {
+  transition: 0.8s;
+}
+
+@keyframes spin {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
