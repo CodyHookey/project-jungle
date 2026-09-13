@@ -4,7 +4,7 @@ import Logo from "../assets/EcoAmazon_logo_002.png";
 
 function About() {
   return (
-    <section className="p-5">
+    <section id="about" className="p-5">
       <div className="container py-5 text-center custom-border px-5">
         <img src={Logo} alt="" width={"100px"} className="mb-3" />
         <h3 className="mb-4">

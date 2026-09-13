@@ -4,37 +4,37 @@ class Tours extends React.Component {
   state = {
     destinations: [
       {
-        name: "Amazon Beyond",
+        name: "Yavarí Beyond",
         desc: "7 Days / 6 Night",
         price: "999",
         image: "/beyond.webp",
       },
       {
-        name: "Ultimate Amazon Explorer",
+        name: "Ultimate Yavarí Explorer",
         desc: "6 Days / 5 Nights",
         price: "899",
         image: "/ultimate.webp",
       },
       {
-        name: "Amazon Wild Camp",
+        name: "Yavarí Wild Camp",
         desc: "5 Days / 4 Nights",
         price: "799",
         image: "/camping.webp",
       },
       {
-        name: "Amazon Unbound",
+        name: "Yavarí Amazon Adventure",
         desc: "4 Days / 3 Nights",
         price: "699",
         image: "/unbound.webp",
       },
       {
-        name: "Amazon Wildlife Escape",
+        name: "Yavarí Wildlife Escape",
         desc: "3 Days / 2 Nights",
         price: "599",
         image: "/wildlife.webp",
       },
       {
-        name: "Amazon Weekend",
+        name: "Yavarí Weekend",
         desc: "2 Days / 1 Nights",
         price: "499",
         image: "/weekend.webp",
@@ -48,10 +48,10 @@ class Tours extends React.Component {
     const looped = [...destinations, ...destinations];
 
     return (
-      <section className="dark-custom-bg py-5">
+      <section id="tours" className="dark-custom-bg py-5">
         <div className="container-fluid px-0 text-center">
           <h3>Our Tours</h3>
-          <p className="text-white mb-4">
+          <p className="text-white mb-5">
             Explore our most popular tours among rainforest adventurers!
           </p>
 
