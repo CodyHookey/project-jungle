@@ -1,0 +1,30 @@
+h1 {
+  font-size: clamp(3.5rem, 2.8rem + 3vw, 4.5rem) !important;
+  color: #2c2c2c;
+}
+
+h2,
+.h2 {
+  font-size: clamp(2.5rem, 2.2rem + 1.5vw, 3rem) !important;
+  color: #2c2c2c;
+}
+
+h3 {
+  font-size: clamp(1.75rem, 1.6rem + 0.8vw, 2rem) !important;
+  color: #2c2c2c;
+}
+
+h4,
+.h4 {
+  font-size: clamp(1.375rem, 1.3rem + 0.4vw, 1.5rem) !important;
+  color: #2c2c2c;
+}
+
+p {
+  font-size: clamp(1.125rem, 1.1rem + 0.2vw, 1.125rem) !important;
+  color: #2c2c2c;
+}
+
+.small-text {
+  font-size: clamp(0.875rem, 0.8rem + 0.3vw, 1rem) !important;
+}

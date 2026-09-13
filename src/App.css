@@ -1,0 +1,32 @@
+#hero-img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.custom-rd {
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+}
+
+.vh-85 {
+  height: 85vh;
+}
+
+.inner-rd {
+  border-radius: 12px;
+}
+
+.custom-btn {
+  background-color: #2e4a33;
+  color: white;
+  font-weight: bold;
+  border: 2px solid #2e4a33;
+  transition: 0.8s;
+}
+
+.custom-btn:hover {
+  background-color: none;
+  border: 2px solid white;
+  transition: 0.8s;
+}
