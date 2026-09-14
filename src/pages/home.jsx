@@ -6,6 +6,7 @@ import Tours from "../sections/tours";
 import Experiences from "../sections/experiences";
 import WhyChooseUs from "../sections/why";
 import Reviews from "../sections/reviews";
+import Footer from "../sections/footer";
 
 class Home extends React.Component {
   render() {
@@ -17,6 +18,7 @@ class Home extends React.Component {
         <Experiences />
         <WhyChooseUs />
         <Reviews />
+        <Footer />
       </>
     );
   }

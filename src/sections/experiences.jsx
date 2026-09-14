@@ -8,7 +8,7 @@ import Kambo from "../../public/kambo.webp";
 class Experiences extends React.Component {
   render() {
     return (
-      <section>
+      <section id="experiences">
         <div className="container py-5 text-center">
           <h3 className="mb-3">Discover Our Specialised Amazon Experiences</h3>
           <p className="mb-5">
