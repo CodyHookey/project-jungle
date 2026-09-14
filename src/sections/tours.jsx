@@ -5,7 +5,7 @@ class Tours extends React.Component {
     destinations: [
       {
         name: "Yavarí Beyond",
-        desc: "7 Days / 6 Night",
+        desc: "7 Days / 6 Nights",
         price: "999",
         image: "/beyond.webp",
       },
@@ -35,7 +35,7 @@ class Tours extends React.Component {
       },
       {
         name: "Yavarí Weekend",
-        desc: "2 Days / 1 Nights",
+        desc: "2 Days / 1 Night",
         price: "499",
         image: "/weekend.webp",
       },
