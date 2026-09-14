@@ -23,12 +23,12 @@ function HeroSection() {
             </p>
 
             <div className="d-flex">
-              <button className="btn custom-btn me-3 inner-rd px-4">
+              <a href="#tours" className="btn custom-btn me-3 inner-rd px-4">
                 Explore Our Tours
-              </button>
-              <button className="btn custom-btn inner-rd px-4">
+              </a>
+              <a href="#experiences" className="btn custom-btn inner-rd px-4">
                 View Our Experiences
-              </button>
+              </a>
             </div>
           </div>
         </div>
